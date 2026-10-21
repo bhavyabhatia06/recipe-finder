@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": 1,
+    "name": "Masala Dosa",
+    "category": "Breakfast",
+    "time": 30,
+    "emoji": "🥞",
+    "description": "Crispy South Indian dosa with potato filling.",
+    "ingredients": ["Dosa batter", "Potatoes", "Onion", "Salt", "Oil"],
+    "instructions": [
+      "Boil and mash potatoes.",
+      "Cook onion and mix with potatoes.",
+      "Spread batter on a hot pan.",
+      "Cook until crisp and add the filling."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Veg Fried Rice",
+    "category": "Lunch",
+    "time": 20,
+    "emoji": "🍚",
+    "description": "Quick fried rice with vegetables.",
+    "ingredients": ["Cooked rice", "Carrot", "Capsicum", "Soy sauce", "Garlic"],
+    "instructions": [
+      "Chop the vegetables.",
+      "Saute garlic in oil.",
+      "Add the vegetables and stir-fry.",
+      "Add rice and soy sauce and mix."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Paneer Butter Masala",
+    "category": "Dinner",
+    "time": 35,
+    "emoji": "🍛",
+    "description": "Creamy tomato curry with paneer.",
+    "ingredients": ["Paneer", "Tomatoes", "Onion", "Cream", "Butter", "Salt"],
+    "instructions": [
+      "Cook tomatoes and onion.",
+      "Blend into a smooth gravy.",
+      "Cook the gravy with butter and spices.",
+      "Add paneer and cream and simmer."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chocolate Mug Cake",
+    "category": "Dessert",
+    "time": 8,
+    "emoji": "🍫",
+    "description": "Quick chocolate cake in a mug.",
+    "ingredients": ["Flour", "Cocoa powder", "Sugar", "Milk", "Oil"],
+    "instructions": [
+      "Mix flour, cocoa powder and sugar.",
+      "Add milk and oil.",
+      "Microwave in a suitable mug until cooked.",
+      "Allow it to cool before eating."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fruit Smoothie",
+    "category": "Drinks",
+    "time": 5,
+    "emoji": "🥤",
+    "description": "Refreshing fruit smoothie.",
+    "ingredients": ["Banana", "Strawberries", "Milk", "Honey"],
+    "instructions": [
+      "Prepare the fruit.",
+      "Add fruit, milk and honey to a blender.",
+      "Blend until smooth.",
+      "Pour into a glass."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Veggie Sandwich",
+    "category": "Breakfast",
+    "time": 10,
+    "emoji": "🥪",
+    "description": "Toasted sandwich with fresh vegetables.",
+    "ingredients": ["Bread", "Tomato", "Cucumber", "Butter", "Chutney"],
+    "instructions": [
+      "Slice the vegetables.",
+      "Spread butter and chutney on bread.",
+      "Add the vegetables.",
+      "Toast and serve."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Chole",
+    "category": "Lunch",
+    "time": 30,
+    "emoji": "🫘",
+    "description": "Chickpeas cooked in Indian masala.",
+    "ingredients": ["Chickpeas", "Tomatoes", "Onion", "Chole masala", "Salt"],
+    "instructions": [
+      "Chop onion and tomatoes.",
+      "Cook them in oil.",
+      "Add chickpeas and spices.",
+      "Simmer until the gravy thickens."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "White Sauce Pasta",
+    "category": "Dinner",
+    "time": 25,
+    "emoji": "🍝",
+    "description": "Creamy pasta with white sauce.",
+    "ingredients": ["Pasta", "Butter", "Flour", "Milk", "Cheese", "Pepper"],
+    "instructions": [
+      "Boil the pasta.",
+      "Melt butter and mix in flour.",
+      "Gradually add milk and stir until thick.",
+      "Add cheese and pasta and mix."
+    ]
+  }
+]

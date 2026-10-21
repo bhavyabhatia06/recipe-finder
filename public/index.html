@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder | Discover Delicious Recipes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">🍳 Recipe<span>Finder</span></a>
+    <nav>
+      <a href="#discover">Discover</a>
+      <a href="#favorites">Favourites <span id="fav-count">0</span></a>
+      <a href="#shopping">Shopping List</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR DAILY DOSE OF DELICIOUS</p>
+        <h1>Find your next<br><span>favourite recipe.</span></h1>
+        <p class="hero-description">
+          Simple ingredients, delicious meals. Discover new recipes
+          and bring something wonderful to your table.
+        </p>
+
+        <form id="search-form" class="search-box">
+          <span>⌕</span>
+          <input id="search-input" type="search"
+            placeholder="Search dishes or ingredients..."
+            aria-label="Search recipes">
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="hero-tags">
+          <span>✦ Easy recipes</span>
+          <span>✦ Everyday ingredients</span>
+          <span>✦ Made for you</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-circle">
+          <span class="hero-emoji">🥗</span>
+          <span class="floating floating-one">🍅</span>
+          <span class="floating floating-two">🥑</span>
+          <span class="floating floating-three">🍋</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="discover" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A LITTLE INSPIRATION</p>
+          <h2>What are you craving?</h2>
+          <p>Explore something delicious for every mood.</p>
+        </div>
+        <span id="recipe-count" class="result-count"></span>
+      </div>
+
+      <div class="categories" id="categories">
+        <button class="category active" data-category="">All recipes</button>
+        <button class="category" data-category="Breakfast">🌞 Breakfast</button>
+        <button class="category" data-category="Lunch">🥗 Lunch</button>
+        <button class="category" data-category="Dinner">🍽️ Dinner</button>
+        <button class="category" data-category="Dessert">🍰 Dessert</button>
+        <button class="category" data-category="Drinks">🥤 Drinks</button>
+      </div>
+
+      <div id="recipe-grid" class="recipe-grid">
+        <p class="message">Loading recipes...</p>
+      </div>
+    </section>
+
+    <section id="favorites" class="section secondary-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SAVED WITH LOVE</p>
+          <h2>Your favourites <span class="heart">♥</span></h2>
+          <p>All the recipes you want to make again.</p>
+        </div>
+      </div>
+
+      <div id="favorites-grid" class="recipe-grid">
+        <p class="message">Loading favourites...</p>
+      </div>
+    </section>
+
+    <section id="shopping" class="section shopping-section">
+      <div class="shopping-intro">
+        <p class="eyebrow">PLAN BEFORE YOU COOK</p>
+        <h2>Your shopping list 🛒</h2>
+        <p>Keep your ingredients organised and check them off as you shop.</p>
+
+        <form id="shopping-form" class="shopping-form">
+          <input id="shopping-input" type="text"
+            placeholder="Add an ingredient..." maxlength="150" required>
+          <button type="submit">+ Add item</button>
+        </form>
+
+        <div class="shopping-progress">
+          <span id="shopping-summary">0 items</span>
+          <button id="clear-checked" class="text-button" type="button">
+            Clear checked
+          </button>
+        </div>
+
+        <ul id="shopping-list" class="shopping-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo footer-logo">🍳 Recipe<span>Finder</span></a>
+    <p>Made with love and a little bit of flavour.</p>
+    <p>© 2026 Recipe Finder</p>
+  </footer>
+
+  <dialog id="recipe-dialog" class="recipe-dialog">
+    <button id="close-dialog" class="close-dialog" aria-label="Close">✕</button>
+    <div id="recipe-details"></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
